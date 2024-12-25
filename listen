@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+while true; do
+	socat - UNIX-CLIENT:/tmp/donate_$1.sock
+	sleep 1
+done

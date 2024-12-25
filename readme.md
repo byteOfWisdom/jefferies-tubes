@@ -4,6 +4,11 @@ jeffries-tubes:
 this is a set of tools for connecting unix pipes in n to m configurations.
 The goal is to be high performance enough so that the performance advantage of using plain anonymus pipes remains small.
 
+depencencies:
+---
+listen script depends on socat, but the script can be substituted by a small program if that is preferred (but socat is open source and easy and performs very well).
+Build depencies for pipe_mux are just cargo or, if that must be avoided the bus library and a recent rust compiler.
+
 installation:
 ---
 Build pipe_mux using cargo (or your preferred way of building a rust project with dependencies. but i'd use carg ;P)

@@ -2,23 +2,23 @@ use crossbeam_channel::{bounded, Receiver, Sender};
 use std::env;
 use std::fs;
 use std::io;
-use std::io::{Read, Write};
+use std::io::{BufReader, Read, Write};
 use std::os::unix::net::{UnixListener, UnixStream};
 use std::thread;
 use std::time::Duration;
 
-const BUFFSIZE: usize = 8192; // for some reason bigger buffers don't work
+const BUFFSIZE: usize = 2 * 8192; // for some reason bigger buffers don't work
 
 type Data = [u8; BUFFSIZE];
-type Rx = Receiver<Data>;
-type Tx = Sender<Data>;
+type Rx = Receiver<(Data, usize)>;
+type Tx = Sender<(Data, usize)>;
 
 fn handle_client(mut stream: UnixStream, recv_from: Rx) {
     stream.set_nonblocking(true).unwrap();
 
     loop {
         match recv_from.try_recv() {
-            Ok(inc) => match stream.write_all(&inc) {
+            Ok(inc) => match stream.write_all(&inc.0[0..inc.1]) {
                 Ok(_) => {}
                 Err(ref e) if e.kind() == io::ErrorKind::BrokenPipe => {
                     break;
@@ -86,13 +86,13 @@ fn mux(from: Rx, to: Vec<Tx>, stop: Receiver<()>) {
 }
 
 fn publish_stdin(to: Tx) {
-    let mut stdin = io::stdin();
+    let mut stdin = BufReader::new(io::stdin().lock());
+    let mut m_buff: Data = [0; BUFFSIZE];
 
     loop {
-        let mut m_buff: Data = [0; BUFFSIZE];
         match stdin.read(&mut m_buff) {
-            Ok(_n) => {
-                let _ = to.try_send(m_buff);
+            Ok(n) => {
+                let _ = to.try_send((m_buff, n));
             }
             Err(_) => {}
         };

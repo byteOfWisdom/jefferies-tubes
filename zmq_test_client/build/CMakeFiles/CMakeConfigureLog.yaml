@@ -1,0 +1,3162 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/opt/homebrew/opt/bin/"
+      - "/opt/homebrew/opt/sbin/"
+      - "/opt/homebrew/opt/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    searched_directories:
+      - "/opt/homebrew/opt/bin/uname"
+      - "/opt/homebrew/opt/sbin/uname"
+      - "/opt/homebrew/opt/uname"
+      - "/opt/homebrew/opt/llvm/bin/uname"
+      - "/opt/homebrew/opt/sphinx-doc/bin/uname"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/uname"
+      - "/Users/leonidessau/.python_venv/bin/uname"
+      - "/bin/uname"
+      - "/Users/leonidessau/scripts/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/Users/leonidessau/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Darwin - 24.3.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/opt/homebrew/opt/bin/"
+      - "/opt/homebrew/opt/sbin/"
+      - "/opt/homebrew/opt/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    searched_directories:
+      - "/opt/homebrew/opt/bin/gmake"
+      - "/opt/homebrew/opt/sbin/gmake"
+      - "/opt/homebrew/opt/gmake"
+      - "/opt/homebrew/opt/llvm/bin/gmake"
+      - "/opt/homebrew/opt/sphinx-doc/bin/gmake"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/gmake"
+      - "/Users/leonidessau/.python_venv/bin/gmake"
+      - "/bin/gmake"
+      - "/Users/leonidessau/scripts/gmake"
+    found: "/opt/homebrew/bin/gmake"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/opt/homebrew/opt/bin/"
+      - "/opt/homebrew/opt/sbin/"
+      - "/opt/homebrew/opt/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    searched_directories:
+      - "/opt/homebrew/opt/bin/cc"
+      - "/opt/homebrew/opt/sbin/cc"
+      - "/opt/homebrew/opt/cc"
+      - "/opt/homebrew/opt/llvm/bin/cc"
+      - "/opt/homebrew/opt/sphinx-doc/bin/cc"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/cc"
+      - "/Users/leonidessau/.python_venv/bin/cc"
+      - "/bin/cc"
+      - "/Users/leonidessau/scripts/cc"
+      - "/opt/homebrew/bin/cc"
+      - "/Users/leonidessau/bin/cc"
+      - "/usr/local/bin/cc"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/4.1.2/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler apple sysroot: "/usr/bin/cc" "-E" "apple-sdk.c"
+        # 1 "apple-sdk.c"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 424 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.c" 2
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 177 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 178 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 179 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.c" 2
+        
+        
+      Found apple sysroot: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    searched_directories:
+      - "/usr/bin/objcopy"
+      - "/opt/homebrew/opt/llvm/bin/objcopy"
+      - "/opt/homebrew/opt/sphinx-doc/bin/objcopy"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/objcopy"
+      - "/Users/leonidessau/.python_venv/bin/objcopy"
+      - "/bin/objcopy"
+      - "/Users/leonidessau/scripts/objcopy"
+      - "/opt/homebrew/bin/objcopy"
+      - "/Users/leonidessau/bin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/Users/leonidessau/.platformio/penv/bin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/opt/X11/bin/objcopy"
+      - "/Library/TeX/texbin/objcopy"
+      - "/usr/local/go/bin/objcopy"
+      - "/Users/leonidessau/.cargo/bin/objcopy"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    searched_directories:
+      - "/usr/bin/readelf"
+      - "/opt/homebrew/opt/llvm/bin/readelf"
+      - "/opt/homebrew/opt/sphinx-doc/bin/readelf"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/readelf"
+      - "/Users/leonidessau/.python_venv/bin/readelf"
+      - "/bin/readelf"
+      - "/Users/leonidessau/scripts/readelf"
+      - "/opt/homebrew/bin/readelf"
+      - "/Users/leonidessau/bin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/Users/leonidessau/.platformio/penv/bin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/opt/X11/bin/readelf"
+      - "/Library/TeX/texbin/readelf"
+      - "/usr/local/go/bin/readelf"
+      - "/Users/leonidessau/.cargo/bin/readelf"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/opt/homebrew/opt/llvm/bin/dlltool"
+      - "/opt/homebrew/opt/sphinx-doc/bin/dlltool"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/dlltool"
+      - "/Users/leonidessau/.python_venv/bin/dlltool"
+      - "/bin/dlltool"
+      - "/Users/leonidessau/scripts/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/Users/leonidessau/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/Users/leonidessau/.platformio/penv/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/opt/X11/bin/dlltool"
+      - "/Library/TeX/texbin/dlltool"
+      - "/usr/local/go/bin/dlltool"
+      - "/Users/leonidessau/.cargo/bin/dlltool"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    searched_directories:
+      - "/usr/bin/addr2line"
+      - "/opt/homebrew/opt/llvm/bin/addr2line"
+      - "/opt/homebrew/opt/sphinx-doc/bin/addr2line"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/addr2line"
+      - "/Users/leonidessau/.python_venv/bin/addr2line"
+      - "/bin/addr2line"
+      - "/Users/leonidessau/scripts/addr2line"
+      - "/opt/homebrew/bin/addr2line"
+      - "/Users/leonidessau/bin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/Users/leonidessau/.platformio/penv/bin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/opt/X11/bin/addr2line"
+      - "/Library/TeX/texbin/addr2line"
+      - "/usr/local/go/bin/addr2line"
+      - "/Users/leonidessau/.cargo/bin/addr2line"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/opt/homebrew/opt/llvm/bin/tapi"
+      - "/opt/homebrew/opt/sphinx-doc/bin/tapi"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/tapi"
+      - "/Users/leonidessau/.python_venv/bin/tapi"
+      - "/bin/tapi"
+      - "/Users/leonidessau/scripts/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/Users/leonidessau/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/Users/leonidessau/.platformio/penv/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/opt/X11/bin/tapi"
+      - "/Library/TeX/texbin/tapi"
+      - "/usr/local/go/bin/tapi"
+      - "/Users/leonidessau/.cargo/bin/tapi"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/4.1.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+        # 1 "apple-sdk.cpp"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 439 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.cpp" 2
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 177 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 178 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 179 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.cpp" 2
+        
+        
+      Found apple sysroot: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:76 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/opt/homebrew/opt/bin/"
+      - "/opt/homebrew/opt/sbin/"
+      - "/opt/homebrew/opt/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+    searched_directories:
+      - "/opt/homebrew/opt/bin/install_name_tool"
+      - "/opt/homebrew/opt/sbin/install_name_tool"
+      - "/opt/homebrew/opt/install_name_tool"
+      - "/opt/homebrew/opt/llvm/bin/install_name_tool"
+      - "/opt/homebrew/opt/sphinx-doc/bin/install_name_tool"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/install_name_tool"
+      - "/Users/leonidessau/.python_venv/bin/install_name_tool"
+      - "/bin/install_name_tool"
+      - "/Users/leonidessau/scripts/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/Users/leonidessau/bin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-Pa72Yb"
+      binary: "/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-Pa72Yb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/homebrew/opt/llvm/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-Pa72Yb'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_4ba6d/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_4ba6d.dir/build.make CMakeFiles/cmTC_4ba6d.dir/build
+        gmake[1]: Entering directory '/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-Pa72Yb'
+        Building C object CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-Pa72Yb -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-Pa72Yb -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/local/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_4ba6d
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ba6d.dir/link.txt --verbose=1
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4ba6d -L/opt/homebrew/opt/llvm/lib -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+        BUILD 23:52:02 Dec  5 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+        Library search paths:
+        	/opt/homebrew/opt/llvm/lib
+        	/usr/local/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl,-v CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o -o cmTC_4ba6d
+        gmake[1]: Leaving directory '/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-Pa72Yb'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/local/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/usr/local/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-Pa72Yb']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_4ba6d/fast]
+        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_4ba6d.dir/build.make CMakeFiles/cmTC_4ba6d.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-Pa72Yb']
+        ignore line: [Building C object CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+        ignore line: [Target: arm64-apple-darwin24.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-Pa72Yb -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-Pa72Yb -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_4ba6d]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ba6d.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+        ignore line: [Target: arm64-apple-darwin24.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4ba6d -L/opt/homebrew/opt/llvm/lib -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_4ba6d] ==> ignore
+          arg [-L/opt/homebrew/opt/llvm/lib] ==> dir [/opt/homebrew/opt/llvm/lib]
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_4ba6d.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/opt/homebrew/opt/llvm/lib;/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/opt/llvm/lib;/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+      BUILD 23:52:02 Dec  5 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-CNzJAy"
+      binary: "/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-CNzJAy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/homebrew/opt/llvm/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-CNzJAy'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_08cd0/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_08cd0.dir/build.make CMakeFiles/cmTC_08cd0.dir/build
+        gmake[1]: Entering directory '/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-CNzJAy'
+        Building CXX object CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-CNzJAy -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-CNzJAy -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/local/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_08cd0
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08cd0.dir/link.txt --verbose=1
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_08cd0 -L/opt/homebrew/opt/llvm/lib -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+        BUILD 23:52:02 Dec  5 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+        Library search paths:
+        	/opt/homebrew/opt/llvm/lib
+        	/usr/local/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl,-v CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_08cd0
+        gmake[1]: Leaving directory '/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-CNzJAy'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/local/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/usr/local/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-CNzJAy']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_08cd0/fast]
+        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_08cd0.dir/build.make CMakeFiles/cmTC_08cd0.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-CNzJAy']
+        ignore line: [Building CXX object CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+        ignore line: [Target: arm64-apple-darwin24.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-CNzJAy -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/CMakeScratch/TryCompile-CNzJAy -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_08cd0]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08cd0.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+        ignore line: [Target: arm64-apple-darwin24.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_08cd0 -L/opt/homebrew/opt/llvm/lib -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_08cd0] ==> ignore
+          arg [-L/opt/homebrew/opt/llvm/lib] ==> dir [/opt/homebrew/opt/llvm/lib]
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_08cd0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/opt/homebrew/opt/llvm/lib;/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/opt/llvm/lib;/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+      BUILD 23:52:02 Dec  5 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/opt/cppzmq/share/cmake/cppzmq/cppzmqConfig.cmake:44 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "ZeroMQ"
+    configs:
+      -
+        filename: "ZeroMQConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zeromq-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "ZeroMQ"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/pkgRedirects/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/pkgRedirects/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/cmake/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/cmake/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/zeromq/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/zeromq/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/llvm/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/llvm/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/leonidessau/.python_venv/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/leonidessau/.python_venv/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/leonidessau/scripts/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/leonidessau/scripts/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/leonidessau/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/leonidessau/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/leonidessau/.platformio/penv/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/leonidessau/.platformio/penv/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Cryptexes/App/usr/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Cryptexes/App/usr/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/X11/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/X11/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/TeX/texbin/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/TeX/texbin/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/go/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/go/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/leonidessau/.cargo/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/leonidessau/.cargo/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/X11R6/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/X11R6/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Applications/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Applications/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Applications/ZeroMQConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Applications/zeromq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake:69 (find_program)"
+      - "/opt/homebrew/opt/cppzmq/share/cmake/cppzmq/libzmq-pkg-config/FindZeroMQ.cmake:2 (find_package)"
+      - "/opt/homebrew/opt/cppzmq/share/cmake/cppzmq/cppzmqConfig.cmake:49 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/opt/homebrew/opt/bin/"
+      - "/opt/homebrew/opt/sbin/"
+      - "/opt/homebrew/opt/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/opt/homebrew/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/sw/bin/"
+      - "/sw/sbin/"
+      - "/sw/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/local/"
+      - "/Applications/"
+      - "/Applications/Xcode.app/Contents/Applications/"
+      - "/Applications/Xcode.app/Contents/Developer/Applications/"
+    searched_directories:
+      - "/opt/homebrew/opt/bin/pkg-config"
+      - "/opt/homebrew/opt/bin/pkgconf"
+      - "/opt/homebrew/opt/sbin/pkg-config"
+      - "/opt/homebrew/opt/sbin/pkgconf"
+      - "/opt/homebrew/opt/pkg-config"
+      - "/opt/homebrew/opt/pkgconf"
+      - "/opt/homebrew/opt/llvm/bin/pkg-config"
+      - "/opt/homebrew/opt/llvm/bin/pkgconf"
+      - "/opt/homebrew/opt/sphinx-doc/bin/pkg-config"
+      - "/opt/homebrew/opt/sphinx-doc/bin/pkgconf"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/pkg-config"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/pkgconf"
+      - "/Users/leonidessau/.python_venv/bin/pkg-config"
+      - "/Users/leonidessau/.python_venv/bin/pkgconf"
+      - "/bin/pkg-config"
+      - "/bin/pkgconf"
+      - "/Users/leonidessau/scripts/pkg-config"
+      - "/Users/leonidessau/scripts/pkgconf"
+    found: "/opt/homebrew/bin/pkg-config"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_APPBUNDLE_PATH:
+        - "/Applications"
+        - "/Applications/Xcode.app/Contents/Applications"
+        - "/Applications/Xcode.app/Contents/Developer/Applications"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "/opt/homebrew/opt/cppzmq/share/cmake/cppzmq/libzmq-pkg-config/FindZeroMQ.cmake:3 (pkg_check_modules)"
+      - "/opt/homebrew/opt/cppzmq/share/cmake/cppzmq/cppzmqConfig.cmake:49 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib_PC_LIBZMQ_zmq"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "zmq"
+    candidate_directories:
+      - "/opt/homebrew/Cellar/zeromq/4.3.5_2/lib/"
+    found: "/opt/homebrew/Cellar/zeromq/4.3.5_2/lib/libzmq.dylib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/opt/cppzmq/share/cmake/cppzmq/libzmq-pkg-config/FindZeroMQ.cmake:7 (find_path)"
+      - "/opt/homebrew/opt/cppzmq/share/cmake/cppzmq/cppzmqConfig.cmake:49 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "path"
+    variable: "ZeroMQ_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "zmq.h"
+    candidate_directories:
+      - "/opt/homebrew/opt/include/"
+      - "/opt/homebrew/opt/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/opt/homebrew/opt/sphinx-doc/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/sw/include/"
+      - "/sw/"
+      - "/opt/local/include/"
+      - "/opt/local/"
+      - "/usr/include/X11/"
+      - "/Users/leonidessau/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/Network/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+      - "/Users/leonidessau/work/jefferies-tubes/zmq_test_client/ZeroMQ_DIR-NOTFOUND/include/"
+      - "/opt/homebrew/Cellar/zeromq/4.3.5_2/include/"
+      - "/opt/homebrew/Cellar/libsodium/1.0.20/include/"
+    searched_directories:
+      - "/opt/homebrew/opt/include/zmq.h"
+      - "/opt/homebrew/opt/zmq.h"
+      - "/opt/homebrew/opt/llvm/bin/zmq.h"
+      - "/opt/homebrew/opt/sphinx-doc/bin/zmq.h"
+      - "/opt/homebrew/Caskroom/miniconda/base/bin/zmq.h"
+      - "/Users/leonidessau/.python_venv/bin/zmq.h"
+      - "/bin/zmq.h"
+      - "/Users/leonidessau/scripts/zmq.h"
+      - "/opt/homebrew/bin/zmq.h"
+      - "/Users/leonidessau/bin/zmq.h"
+      - "/usr/local/bin/zmq.h"
+      - "/usr/bin/zmq.h"
+      - "/Users/leonidessau/.platformio/penv/bin/zmq.h"
+      - "/System/Cryptexes/App/usr/bin/zmq.h"
+      - "/usr/sbin/zmq.h"
+      - "/sbin/zmq.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/zmq.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/zmq.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/zmq.h"
+      - "/opt/X11/bin/zmq.h"
+      - "/Library/TeX/texbin/zmq.h"
+      - "/usr/local/go/bin/zmq.h"
+      - "/Users/leonidessau/.cargo/bin/zmq.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/zmq.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/zmq.h"
+    found: "/opt/homebrew/include/"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/opt/cppzmq/share/cmake/cppzmq/libzmq-pkg-config/FindZeroMQ.cmake:11 (find_library)"
+      - "/opt/homebrew/opt/cppzmq/share/cmake/cppzmq/cppzmqConfig.cmake:49 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "ZeroMQ_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "zmq"
+    candidate_directories:
+      - "/opt/homebrew/opt/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/opt/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+      - "/opt/homebrew/Cellar/zeromq/4.3.5_2/lib/"
+    searched_directories:
+      - "/opt/homebrew/opt/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/leonidessau/.python_venv/bin/"
+      - "/bin/"
+      - "/Users/leonidessau/scripts/"
+      - "/opt/homebrew/bin/"
+      - "/Users/leonidessau/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/Users/leonidessau/.platformio/penv/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/go/bin/"
+      - "/Users/leonidessau/.cargo/bin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
+    found: "/opt/homebrew/lib/libzmq.dylib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:8 (find_package)"
+    name: "cppzmq"
+    configs:
+      -
+        filename: "cppzmqConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "cppzmq-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "cppzmq"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/pkgRedirects/cppzmqConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/pkgRedirects/cppzmq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/cppzmqConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/cppzmq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/cmake/cppzmqConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/cmake/cppzmq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/cppzmq/cppzmqConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/cppzmq/cppzmq-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/opt/cppzmq/share/cmake/cppzmq/cppzmqConfig.cmake"
+      mode: "config"
+      version: "4.11.0"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/opt/"
+      ENV{PATH}:
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/opt/homebrew/opt/sphinx-doc/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.python_venv/bin"
+        - "/bin"
+        - "/Users/leonidessau/scripts"
+        - "/opt/homebrew/bin"
+        - "/Users/leonidessau/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/go/bin"
+        - "/Users/leonidessau/.platformio/penv/bin/"
+        - "/Users/leonidessau/.cargo/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+      CMAKE_MODULE_PATH:
+        - "/opt/homebrew/opt/cppzmq/share/cmake/cppzmq/libzmq-pkg-config"
+...

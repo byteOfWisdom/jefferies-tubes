@@ -1,0 +1,3 @@
+/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/server.dir
+/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/edit_cache.dir
+/Users/leonidessau/work/jefferies-tubes/zmq_test_client/build/CMakeFiles/rebuild_cache.dir

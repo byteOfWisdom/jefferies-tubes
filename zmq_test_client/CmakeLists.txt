@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 4.0)
+
+project(zmq_server)
+
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++23 -O2 -Wall -Wpedantic -Wextra")
+
+find_package(cppzmq)
+
+add_executable(server main.cpp)
+target_link_libraries(server cppzmq)

@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++23 -O2 -Wall -Wpedantic -Wextra -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib CMakeFiles/server.dir/main.cpp.o -o server  /opt/homebrew/lib/libzmq.dylib

@@ -1,37 +1,42 @@
-#include <string>
-#include <thread>
-#include <iostream>
-
+//
+//  Hello World server in C++
+//  Binds REP socket to tcp://*:5555
+//  Expects "Hello" from client, replies with "World"
+//
 #include <zmq.hpp>
+#include <string>
+#include <iostream>
+#ifndef _WIN32
+#include <unistd.h>
+#else
+#include <windows.h>
 
-int main() 
-{
-    using namespace std::chrono_literals;
+#define sleep(n)	Sleep(n)
+#endif
 
-    // initialize the zmq context with a single IO thread
-    zmq::context_t context{1};
+int main () {
+    //  Prepare our context and socket
+    static const int kNumberOfThreads = 2;
+    zmq::context_t context (kNumberOfThreads);
+    zmq::socket_t socket (context, zmq::socket_type::rep);
+    socket.bind ("tcp://*:5555");
 
-    // construct a REP (reply) socket and bind to interface
-    zmq::socket_t socket{context, zmq::socket_type::rep};
-    socket.bind("tcp://*:5555");
-
-    // prepare some static data for responses
-    const std::string data{"World"};
-
-    for (;;) 
-    {
+    while (true) {
         zmq::message_t request;
 
-        // receive a request from client
-        socket.recv(request, zmq::recv_flags::none);
-        std::cout << "Received " << request.to_string() << std::endl;
+        //  Wait for next request from client
+        auto result = socket.recv (request, zmq::recv_flags::none);
+        assert(result.value_or(0) != 0); // Check if bytes received is non-zero
+        std::cout << "Received Hello" << std::endl;
 
-        // simulate work
-        std::this_thread::sleep_for(1s);
+        //  Pretend to do some 'work'
+        sleep(1);
 
-        // send the reply to the client
-        socket.send(zmq::buffer(data), zmq::send_flags::none);
+        //  Send reply back to client
+        constexpr std::string_view kReplyString = "World";
+        zmq::message_t reply (kReplyString.length());
+        memcpy (reply.data (), kReplyString.data(), kReplyString.length());
+        socket.send (reply, zmq::send_flags::none);
     }
-
     return 0;
 }
